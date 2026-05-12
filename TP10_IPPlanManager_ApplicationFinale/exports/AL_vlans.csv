@@ -1,0 +1,2 @@
+ID;Nom;AdresseReseau;CIDR;Capacite
+10;VLAN_AZA;192.168.10.0;24;254

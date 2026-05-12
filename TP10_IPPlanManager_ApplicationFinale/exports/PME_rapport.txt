@@ -1,0 +1,25 @@
+====================================================
+      RAPPORT TECHNIQUE : PME
+====================================================
+
+1. SYNTHÈSE DES BESOINS
+ - Service : WIFI_INVITES (80 hôtes)
+ - Service : ADMINISTRATION (50 hôtes)
+ - Service : VOIP (40 hôtes)
+ - Service : COMPTABILITE (20 hôtes)
+ - Service : SERVEURS (15 hôtes)
+
+2. PLAN D'ADRESSAGE VLSM
+Service         | Réseau             | Masque          | Marge 
+----------------------------------------------------------------------
+WIFI_INVITES    | 10.20.20.0/25      | 255.255.255.128 | 46    
+ADMINISTRATION  | 10.20.20.128/26    | 255.255.255.192 | 12    
+VOIP            | 10.20.20.192/26    | 255.255.255.192 | 22    
+COMPTABILITE    | 10.20.21.0/27      | 255.255.255.224 | 10    
+SERVEURS        | 10.20.21.32/27     | 255.255.255.224 | 15    
+
+3. RECOMMANDATIONS ET ALERTES
+ [Optimisation] BASSE : Plan d'adressage validé.
+
+
+Fichier généré automatiquement par IPPlanManager.

@@ -1,0 +1,3 @@
+===== RECOMMANDATIONS IPPLAN-MANAGER =====
+
+[Saturation] HAUTE : Espace critique pour SERVEURS

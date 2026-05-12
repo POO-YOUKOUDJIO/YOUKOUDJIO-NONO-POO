@@ -1,0 +1,17 @@
+====================================================
+      RAPPORT TECHNIQUE : AL
+====================================================
+
+1. SYNTHÈSE DES BESOINS
+ - Service : AZA (200 hôtes)
+
+2. PLAN D'ADRESSAGE VLSM
+Service         | Réseau             | Masque          | Marge 
+----------------------------------------------------------------------
+AZA             | 192.168.10.0/24    | 255.255.255.0   | 54    
+
+3. RECOMMANDATIONS ET ALERTES
+ [Optimisation] BASSE : Plan d'adressage validé.
+
+
+Fichier généré automatiquement par IPPlanManager.

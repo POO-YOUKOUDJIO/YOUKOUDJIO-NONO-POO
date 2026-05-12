@@ -1,0 +1,25 @@
+====================================================
+      RAPPORT TECHNIQUE : MULTI-SERVICES
+====================================================
+
+1. SYNTHÈSE DES BESOINS
+ - Service : TECHNIQUE (120 hôtes)
+ - Service : INVITES (100 hôtes)
+ - Service : CAMERAS (60 hôtes)
+ - Service : SUPPORT (35 hôtes)
+ - Service : DIRECTION (25 hôtes)
+
+2. PLAN D'ADRESSAGE VLSM
+Service         | Réseau             | Masque          | Marge 
+----------------------------------------------------------------------
+TECHNIQUE       | 10.10.20.0/25      | 255.255.255.128 | 6     
+INVITES         | 10.10.20.128/25    | 255.255.255.128 | 26    
+CAMERAS         | 10.10.21.0/26      | 255.255.255.192 | 2     
+SUPPORT         | 10.10.21.64/26     | 255.255.255.192 | 27    
+DIRECTION       | 10.10.21.128/27    | 255.255.255.224 | 5     
+
+3. RECOMMANDATIONS ET ALERTES
+ [Optimisation] BASSE : Plan d'adressage validé.
+
+
+Fichier généré automatiquement par IPPlanManager.
